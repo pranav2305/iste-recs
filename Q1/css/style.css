@@ -1,0 +1,30 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item {
+  flex: 50%;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+.form-group {
+  padding-bottom: 2rem;
+}
+
+input {
+  width: 40rem !important;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
