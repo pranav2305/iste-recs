@@ -18,9 +18,6 @@ function validateName(){
             toFocus = name;
         }
     }
-    if (toFocus){
-        toFocus.focus();
-    }
 }
 
 function validateDob(){
@@ -100,14 +97,7 @@ function validateGenre(){
 }
 
 function validate(level){
-    if (level>0)
-        validateName();
-    if (level>1)
-        validateDob();
-    if (level >2)
-        validateEmail();
-    if (level >3)
-        validatePhn();
+
     if (level >4){
         validateGenre();
         if (!toFocus){
@@ -116,6 +106,15 @@ function validate(level){
             btn.click();
         }
     }
+    if (level >3)
+        validatePhn();
+    if (level >2)
+        validateEmail();
+    if (level>1)
+        validateDob();
+    if (level>0)
+        validateName();
+    
     if (toFocus){
         toFocus.focus();
         toFocus = null;

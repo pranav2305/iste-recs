@@ -16,7 +16,7 @@ img {
 }
 
 .form-group {
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 
 input {
@@ -27,4 +27,48 @@ form {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.msg-container {
+  min-height: 1.5rem;
+}
+
+small {
+  color: red !important;
+}
+
+.form-container {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.req {
+  color: red;
+}
+
+.btn {
+  background-color: #d00078 !important;
+  color: aliceblue !important;
+}
+
+header,
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 3rem;
+}
+
+header {
+  top: 0;
+  box-shadow: 0 3px 4px -4px rgb(153, 148, 148);
+}
+
+footer {
+  bottom: 0;
+  box-shadow: 0 -3px 4px -4px rgb(153, 148, 148);
 }
