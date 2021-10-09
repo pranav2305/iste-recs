@@ -3,14 +3,6 @@
   justify-content: center;
 }
 
-.flex-item {
-  flex: 50%;
-}
-
-.image-container {
-  overflow: hidden;
-}
-
 img {
   width: 100%;
 }
@@ -38,7 +30,7 @@ small {
 }
 
 .form-container {
-  margin: auto;
+  margin: auto !important;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -71,4 +63,12 @@ header {
 footer {
   bottom: 0;
   box-shadow: 0 -3px 4px -4px rgb(153, 148, 148);
+}
+
+.row {
+  margin: 0 !important;
+}
+
+.col {
+  padding: 0 !important;
 }
