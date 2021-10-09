@@ -5,20 +5,15 @@
 
 img {
   width: 100%;
+  object-fit: cover;
 }
 
 .form-group {
   padding-bottom: 1rem;
 }
 
-input {
-  width: 40rem !important;
-}
-
 form {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  width: 80%;
 }
 
 .msg-container {
@@ -26,18 +21,23 @@ form {
 }
 
 small {
-  color: red !important;
+  color: #d00078 !important;
 }
 
 .form-container {
-  margin: auto !important;
+  margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 0;
+}
+
+.image-container {
+  padding: 0;
 }
 
 .req {
-  color: red;
+  color: #d00078;
 }
 
 .btn {
